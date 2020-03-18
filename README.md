@@ -27,6 +27,7 @@ Python : [Open3D](http://www.open3d.org/)
 	- 目前Stitch結果有些微錯位, 經過多個Frame疊合後錯位部份會變得明顯
 	可嘗試加入Kick-Out Rule排除掉取像不佳的Frame, 以及調整ICP參數
 - C++ & Python整合 or 使用Open3D C++ Library(需確認是否支援Color ICP)
+- Filter後Point Cloud顏色變暗, 待確認原因
 
 ## Reference
 
