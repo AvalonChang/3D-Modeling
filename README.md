@@ -3,6 +3,7 @@
 ## 軟體環境
 
 C++    : [PCL 1.9.1](https://github.com/PointCloudLibrary/pcl) , [RealSense](https://github.com/IntelRealSense)
+
 Python : [Open3D](http://www.open3d.org/)
 
 ## 開發進度
@@ -15,7 +16,7 @@ Python : [Open3D](http://www.open3d.org/)
 
 - RealSense Preset
 - 拼接結果
-	目前Stitch結果有些微錯位, 經過多個Frame疊合後錯位部份會變得明顯
+	- 目前Stitch結果有些微錯位, 經過多個Frame疊合後錯位部份會變得明顯
 	可嘗試加入Kick-Out Rule排除掉取像不佳的Frame, 以及調整ICP參數
 - C++ & Python整合 or 使用Open3D C++ Library(需確認是否支援Color ICP)
 
