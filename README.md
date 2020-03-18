@@ -9,8 +9,16 @@ Python : [Open3D](http://www.open3d.org/)
 ## 開發進度
 
 1. 以Intel RealSense取得RGB-D Point Cloud
+
+![RealScanCapture](./ReadMe_Img/frame1.png)
+
 2. 在C++對Point Cloud進行Object Extraction
+
+![Object Extraction](./ReadMe_Img/frame1_extr.png)
+
 3. Python中使用Color ICP進行Alignment & Stitch
+
+![Stitch](./ReadMe_Img/Stitch9.png)
 
 ## 未完成部份
 
